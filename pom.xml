@@ -6,7 +6,7 @@
     <groupId>com.wyc</groupId>
     <artifactId>simple-sst</artifactId>
     <version>1.0</version>
-    <description>Spring、SpringMVC、SpringJDBCTemplate</description>
+    <description>一个Spring、SpringMVC、SpringJDBCTemplate演示项目</description>
     <packaging>war</packaging>
     <dependencies>
         <!-- spring 依赖-->
