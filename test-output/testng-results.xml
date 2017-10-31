@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6020" started-at="2017-10-31T13:23:37Z" finished-at="2017-10-31T13:23:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6020" started-at="2017-10-31T13:23:37Z" finished-at="2017-10-31T13:23:43Z">
+      <class name="com.wyc.service.UserServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="15" started-at="2017-10-31T21:23:37Z" finished-at="2017-10-31T21:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1339" started-at="2017-10-31T21:23:37Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-10-31T21:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4349" started-at="2017-10-31T21:23:39Z" finished-at="2017-10-31T21:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wyc.service.UserServiceTest.testAddLoginLog()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testAddLoginLog()[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="testAddLoginLog" duration-ms="92" started-at="2017-10-31T21:23:43Z" finished-at="2017-10-31T21:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddLoginLog -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="7" started-at="2017-10-31T21:23:43Z" finished-at="2017-10-31T21:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wyc.service.UserServiceTest.testAddLoginLog()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="11" started-at="2017-10-31T21:23:43Z" finished-at="2017-10-31T21:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wyc.service.UserServiceTest.testFindUserByUserName() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testFindUserByUserName()[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="testFindUserByUserName" duration-ms="151" started-at="2017-10-31T21:23:43Z" finished-at="2017-10-31T21:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindUserByUserName -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2017-10-31T21:23:43Z" finished-at="2017-10-31T21:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wyc.service.UserServiceTest.testFindUserByUserName() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="6" started-at="2017-10-31T21:23:43Z" finished-at="2017-10-31T21:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wyc.service.UserServiceTest.testHasMatchUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testHasMatchUser()[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="testHasMatchUser" duration-ms="12" started-at="2017-10-31T21:23:43Z" finished-at="2017-10-31T21:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHasMatchUser -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="6" started-at="2017-10-31T21:23:43Z" finished-at="2017-10-31T21:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wyc.service.UserServiceTest.testHasMatchUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.wyc.service.UserServiceTest@e2c0b34]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-10-31T21:23:43Z" finished-at="2017-10-31T21:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.wyc.service.UserServiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
