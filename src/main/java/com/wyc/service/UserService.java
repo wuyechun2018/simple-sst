@@ -1,14 +1,13 @@
 package com.wyc.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.wyc.dao.LoginLogDao;
 import com.wyc.dao.UserDao;
 import com.wyc.domain.LoginLog;
 import com.wyc.domain.User;
-import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class UserService {
